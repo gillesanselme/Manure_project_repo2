@@ -98,7 +98,7 @@ La **régression PLS** a été retenue pour sa capacité à gérer la colinéari
 │   └── app.py                  # API Flask — prétraitement + prédiction PLS
 ├── app/
 │   └── dashboard.py            # Interface Streamlit multi-pages
-├── modèle/
+├── modele/
 │   ├── models_bovin/           # 7 modèles PLS bovins (.pkl)
 │   └── models_volaille/        # 7 modèles PLS volailles (.pkl)
 ├── data/                       # Spectres NIR + mesures chimiques (publiques)
@@ -162,7 +162,7 @@ pip install -r requirements.txt
 python api/app.py
 ```
 
-L'API démarre sur `http://127.0.0.1:8000`.
+L'API démarre sur `https://dashboard-855393546916.europe-west9.run.app/`.
 
 ### 3. Lancer le dashboard
 ```bash
@@ -192,9 +192,11 @@ streamlit run app/dashboard.py
 
 Les données utilisées sont publiques et comprennent des spectres NIR (1100–2498 nm, 700 longueurs d'onde) associés à des mesures chimiques de référence pour des fumiers bovins et volailles. Disponibles dans le dossier `/data`.
 
+> NB: ceci est une copie du Repo originel qui contient que les informations utiles à l'utilisation de ce l'app Flask
 ---
 
 ## Auteur
 
 **Ekanza Gilles**
 Ouvert aux échanges autour de la chimiométrie, de l'analyse spectrale et de la data science appliquée.
+
