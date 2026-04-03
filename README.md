@@ -121,55 +121,38 @@ La **régression PLS** a été retenue pour sa capacité à gérer la colinéari
 - 700 colonnes spectrales par ligne, sans en-tête
 - Extensions acceptées : `.csv` ou `.txt`
 
-**Exemple de réponse**
-```json
-{
-  "statut": "succès",
-  "type_fumier": "bovin",
-  "predictions": {
-    "NH4": 1.243,
-    "DM": 28.17,
-    "N": 3.85,
-    "P2O5": 2.14,
-    "K2O": 3.61,
-    "CaO": 4.02,
-    "MgO": 0.98
-  }
-}
-```
-
 ---
 
 ## Interface Streamlit
 
-Le dashboard est organisé en trois pages :
+Le dashboard est organisé en une page :
 
-- **Prédiction** — chargement d'un fichier spectral, sélection du type de fumier, lancement des prédictions, tableau des résultats, visualisations (barres groupées, radar par échantillon), export CSV/TXT
-- **Spectres** — exploration des spectres de référence : spectre moyen avec enveloppe ±1σ, spectres individuels superposés, carte de chaleur des absorbances
-- **Données brutes** — statistiques descriptives et aperçu des fichiers de référence chargés
+- **Prédiction** — chargement d'un fichier spectral, sélection du type de fumier, lancement des prédictions, tableau des résultats, visualisations (barres groupées, Intervalle de confiance), export CSV/TXT
+
 
 ---
 
-## Lancement
+## Utilisation
 
-### 1. Installer les dépendances
-```bash
-pip install -r requirements.txt
-```
-
-### 2. Lancer l'API
-```bash
-python api/app.py
-```
+### 1. lancer le Dashboard
 
 L'API démarre sur `https://dashboard-855393546916.europe-west9.run.app/`.
 
-### 3. Lancer le dashboard
-```bash
-streamlit run app/dashboard.py
-```
+### 2. Choix du type de fumier
+Bovin ou volaille
 
-> L'API doit être active avant de lancer le dashboard — l'indicateur de connexion en bas de la barre latérale confirme l'état.
+
+### 3. Importer un fichier spectre depuis le repo
+Dans le dossier "spectre_test" se trouve les spectres en fonction du type dans un format csv avec en-tête et colonne index
+
+### 4. Côcher la colonne index et l'en-tête de colonne
+
+
+### 5. Lancer la prédiction
+
+### 6. Exporter les prédictions en format csv ou txt
+
+
 
 ---
 
