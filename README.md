@@ -1,6 +1,6 @@
 # Prédiction des propriétés chimiques du fumier par spectroscopie NIR
 
-Pipeline complet de chimiométrie : analyse exploratoire → prétraitement spectral → modélisation PLS → API de prédiction → dashboard interactif.
+Pipeline complet de chimiométrie : analyse exploratoire → prétraitement spectral → modélisation PLS → API de prédiction → dashboard interactif: https://dashboard-855393546916.europe-west9.run.app/
 
 ---
 
