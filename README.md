@@ -2,7 +2,7 @@
 
 Pipeline complet de chimiométrie : analyse exploratoire → prétraitement spectral → modélisation PLS → API de prédiction → dashboard interactif: https://dashboard-855393546916.europe-west9.run.app/
 ---
->  NB 1: ceci est une copie du Repo originel qui contient que les informations utiles à l'utilisation de ce l'app Flask
+>  NB 1: ceci est une copie du Repo originel qui contient que les informations utiles à l'utilisation de ce l'app Flask\\
 >  NB 2: **le site est dorénavant inactif**
 ---
 
