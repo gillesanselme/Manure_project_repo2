@@ -2,6 +2,8 @@
 
 Pipeline complet de chimiométrie : analyse exploratoire → prétraitement spectral → modélisation PLS → API de prédiction → dashboard interactif: https://dashboard-855393546916.europe-west9.run.app/
 ---
+> NB 1: ceci est une copie du Repo originel qui contient que les informations utiles à l'utilisation de ce l'app Flask
+> NB 2: le site est dorénavant inactif 
 
 ## Description
 
@@ -174,8 +176,7 @@ Dans le dossier "spectre_test" se trouve les spectres en fonction du type dans u
 
 Les données utilisées sont publiques et comprennent des spectres NIR (1100–2498 nm, 700 longueurs d'onde) associés à des mesures chimiques de référence pour des fumiers bovins et volailles. Disponibles dans le dossier `/data`.
 
-> NB 1: ceci est une copie du Repo originel qui contient que les informations utiles à l'utilisation de ce l'app Flask
-> NB 2: le site est dorénavant inactif 
+
 ---
 
 ## Auteur
